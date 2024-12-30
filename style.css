@@ -73,3 +73,10 @@ main section {
     text-align: center;
     padding: 1rem 0;
 }
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
