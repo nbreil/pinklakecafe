@@ -75,8 +75,9 @@ main section {
 }
 
 .responsive-image {
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Image will take up 100% of the parent container's width */
+    max-width: 800px; /* Prevent it from becoming too large on wider screens */
+    height: auto; /* Maintain aspect ratio */
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto; /* Center the image horizontally */
 }
